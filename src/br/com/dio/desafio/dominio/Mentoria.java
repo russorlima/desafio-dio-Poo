@@ -12,15 +12,12 @@ public class Mentoria extends Conteudo {
         return XP_PADRAO + 20;
         {
 
-    public Mentoria() {
+
+
+
         }
 
-            public LocalDate getData () {
-            return data;
-        }
 
-            public void setData (LocalDate data){
-            this.data = data;
         }
 
             @Override
@@ -33,5 +30,5 @@ public class Mentoria extends Conteudo {
         }
 
         }
-    }
-}
+
+
