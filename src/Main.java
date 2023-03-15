@@ -1,7 +1,10 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,6 +18,7 @@ public class Main {
         curso2.setTitulo("curso JavaScript");
         curso2.setDescricao("descrição curso JavaScript");
         curso2.setCargaHoraria(6);
+
 
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("mentoria Java");
